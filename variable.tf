@@ -10,14 +10,13 @@ variable "resource_group_name" {
   type        = string
 }
 
-# Variable for Policy Display Name (Optional)
 variable "policy_display_name" {
   description = "The display name for the policy definition."
   type        = string
   default     = "Deny Public IP"
 }
 
-# Variable for Policy Description (Optional)
+
 variable "policy_description" {
   description = "The description for the policy definition."
   type        = string
