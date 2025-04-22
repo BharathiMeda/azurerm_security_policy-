@@ -15,22 +15,17 @@ output "policy_definition_display_name" {
 }
 
 # Output for Policy Assignment
-output "policy_assignment_id" {
+/*output "policy_assignment_id" {
   description = "The ID of the policy assignment created."
-  value       = azurerm_policy_assignment.deny_public_ip_assignment.id
+  value       = aazurerm_resource_policy_assignment.deny_public_ip_assignment.id
 }
 
 output "policy_assignment_name" {
   description = "The name of the policy assignment created."
-  value       = azurerm_policy_assignment.deny_public_ip_assignment.name
-}
-
-output "policy_assignment_scope" {
-  description = "The scope of the policy assignment."
-  value       = azurerm_policy_assignment.deny_public_ip_assignment.scope
-}
+  value       = azurerm_resource_policy_assignmentt.deny_public_ip_assignment.name
+}*/
 
 output "policy_assignment_display_name" {
   description = "The display name of the policy assignment created."
-  value       = azurerm_policy_assignment.deny_public_ip_assignment.display_name
+  value       = azurerm_resource_policy_assignment.deny_public_ip_assignment.display_name
 }
